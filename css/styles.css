@@ -20,7 +20,7 @@ body {
 
 .navbar-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
+	grid-template-columns: (auto-fit, minmax(300px, 1fr);
 	grid-template-rows: 150px;
 	column-gap: 5%;
 }
@@ -54,11 +54,12 @@ body {
 	font-size: calc(16px + .8vw);
 	padding-top: 30px;
 	align-content: right;
+	text-align: right;
 }
 
 .menu li {
 	display: inline;
-	margin-right: 10%;
+	margin-right: 7%;
 }
 
 .menu a {
