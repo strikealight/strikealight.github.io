@@ -12,7 +12,7 @@ body {
 	width: 90%;
 	background-color: black;
 	color: white;
-	border-bottom: 5px solid lightblue;
+	border-bottom: 5px solid #437cff;
 	padding-left: 5%;
 	padding-right: 5%;
 	min-height: 200px;
@@ -21,7 +21,7 @@ body {
 .navbar-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
-	grid-template-rows: minmax(min-content, max-content);
+	grid-template-rows: 150px;
 	column-gap: 5%;
 }
 
@@ -32,10 +32,9 @@ body {
 }
 
 .footer {
-	background-color: lightblue;
+	background-color: #437cff;
 	padding: 25% 5% 5% 5%;
 	width: 90%;		
-	align-content: left;
 	text-align: left;	
 }
 
@@ -53,17 +52,22 @@ body {
 
 .menu {
 	font-size: calc(16px + .8vw);
+	padding-top: 30px;
+	align-content: right;
 }
 
 .menu li {
 	display: inline;
-	margin-left: 5%;
+	margin-right: 10%;
 }
 
 .menu a {
 	color: white;
 }
 
+.menu a:hover {
+	background-color: #437cff;
+}
 
 .footer ul {
 	margin: 0;
