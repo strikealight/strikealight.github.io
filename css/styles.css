@@ -4,8 +4,6 @@ body {
 	margin: 0;
 	padding: 0; /*overwrite browser defaults */
 	font-family: 'Kosugi Maru', sans-serif;	
-	align-content: center;
-	text-align: center;	
 }
 
 .navbar {
@@ -17,7 +15,7 @@ body {
 	border-bottom: 5px solid lightblue;
 	padding-left: 5%;
 	padding-right: 5%;
-	min-height: 250px;
+	min-height: 200px;
 }
 
 .navbar-grid {
@@ -29,7 +27,7 @@ body {
 
 .content {
 	width: 90%;
-	margin-top: 250px;
+	margin-top: 200px;
 	padding: 0 5% 15% 5%;
 }
 
@@ -64,8 +62,6 @@ body {
 
 .menu a {
 	color: white;
-	background-color: darkgrey;
-	padding: 1%;
 }
 
 
