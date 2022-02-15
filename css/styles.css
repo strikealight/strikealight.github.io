@@ -1,7 +1,9 @@
 /* Global sections */
 
 body {
-
+	margin: 0;
+	padding: 0; /*overwrite browser defaults */
+	font-family: 'Kosugi Maru', sans-serif;	
 }
 
 .navbar {
@@ -18,7 +20,6 @@ body {
 
 .content {
 	width: 90%;
-	height: auto;
 	margin-top: 130px;
 	padding: 0 5% 15% 5%;
 }
